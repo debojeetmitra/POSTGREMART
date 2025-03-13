@@ -3,7 +3,7 @@ import React from "react";
 import { ShoppingBagIcon, ShoppingCartIcon } from "lucide-react";
 import ThemeSelector from "./ThemeSelector";
 import { useProductStore } from "../store/useProductStore";
-import { useProductStore } from "../store/useProductStore";
+
 
 function Navbar() {
   const { pathname } = useResolvedPath();
